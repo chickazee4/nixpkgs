@@ -10,7 +10,7 @@
 with lib;
 stdenv.mkDerivation rec {
   pname = "libopenshot";
-  version = "0.2.5";
+  version = "0.2.7";
 
   src = fetchFromGitHub {
     owner = "OpenShot";
